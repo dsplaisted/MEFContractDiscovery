@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractDiscovery", "ContractDiscovery\ContractDiscovery.csproj", "{F896878C-179C-4BF0-A16F-977FAB49EF71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractDiscoveryTests", "ContractDiscoveryTests\ContractDiscoveryTests.csproj", "{A2648E1A-62F1-4370-8301-DE5753655D77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7EAF0E0B-7B37-455B-9EFF-3475DBDAC7C2}"
+	ProjectSection(SolutionItems) = preProject
+		ContractDiscovery.vsmdi = ContractDiscovery.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractDiscoveryEditorMargin", "ContractDiscoveryEditorMargin\ContractDiscoveryEditorMargin.csproj", "{22D607DC-C166-41B6-A5A6-691CBD2CE593}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ContractDiscovery.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F896878C-179C-4BF0-A16F-977FAB49EF71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F896878C-179C-4BF0-A16F-977FAB49EF71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F896878C-179C-4BF0-A16F-977FAB49EF71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F896878C-179C-4BF0-A16F-977FAB49EF71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2648E1A-62F1-4370-8301-DE5753655D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2648E1A-62F1-4370-8301-DE5753655D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2648E1A-62F1-4370-8301-DE5753655D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2648E1A-62F1-4370-8301-DE5753655D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22D607DC-C166-41B6-A5A6-691CBD2CE593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D607DC-C166-41B6-A5A6-691CBD2CE593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D607DC-C166-41B6-A5A6-691CBD2CE593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D607DC-C166-41B6-A5A6-691CBD2CE593}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
